@@ -1,37 +1,28 @@
+import Rightbar_Render from "../render/Home/rightbar.render";
 import { style_right } from "../start";
+import Rightbar_Collapse from "./rightbar/functions/rightbar_collapse";
 
-export default function RightbarContent(Right){
-    Right.innerHTML = (
-        `
-        <div id='rightbar' class="${style_right('rightbar')}">
-          <p>WIP</p>   
+export default function RightbarContent(Right) {
+  Right.innerHTML = (
+    `
+    <div id="rightbarcontent" class="${style_right('rightbar')}">
+      <div class=${style_right('content')}>
+        <div class="${style_right('hamburger')}">
+          <div class="${style_right('line')}"></div>
+          <div class="${style_right('line')}"></div>
+          <div class="${style_right('line')}"></div>
         </div>
-      
-        `
-    )
+        <div class="${style_right('content')}">
+          <h2>Portfolio</h2>
+          <div id='rightlist'></div>
+          <div class="${style_right('overlay')}"></div>
+        </div>
+      </div>
+    </div>
+  `
+  )
 
+  Rightbar_Collapse();
+  Rightbar_Render();
 
-    // document.addEventListener('click', function(event) {
-    //     const rightbar = document.querySelector(`.${style_right('rightbar')}`);
-        
-    //     if (!rightbar.contains(event.target)) {
-    //       const hamburger = document.getElementById('ham');
-    //       const collapsibleContent = document.getElementById('content');
-          
-    //       rightbar.classList.remove(`${style_right('open')}`);
-    //       hamburger.classList.remove(`${style_right('open')}`);
-    //       collapsibleContent.classList.remove(`${style_right('open')}`);
-    //     }
-    //   });
-      
-    //   const hamburger = document.getElementById('ham');
-    //   const collapsibleContent = document.getElementById('content');
-    //   const rightbar = document.querySelector(`.${style_right('rightbar')}`);
-      
-    //   hamburger.addEventListener('click', function() {
-    //     this.classList.toggle(`${style_right('open')}`);
-    //     collapsibleContent.classList.toggle(`${style_right('open')}`);
-    //     rightbar.classList.toggle(`${style_right('open')}`);
-    //   });
-      
 }
