@@ -6,6 +6,9 @@
     bottom: 0;
     background-color: #242828;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
   }
 
 .text-color {

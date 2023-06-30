@@ -70,6 +70,9 @@
   height: 100%;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
 }
 
 .font-size-20px {
@@ -256,4 +259,9 @@
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+.blinks a:hover i {
+    color: aqua;
+    transition: .5s;
 }
