@@ -110,11 +110,33 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.service-item h3 {
+.service-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.service-icon i {
+    color: #000000;
+}
+
+.service-item h2 {
   color: #fff;
   font-weight: 500;
+  font-size: 1.1em;
 }
 
 .service-item p {
   color: #fcfafa;
+  font-size: 13px;
 }
