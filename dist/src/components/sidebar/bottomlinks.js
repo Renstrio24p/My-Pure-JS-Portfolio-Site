@@ -6,10 +6,10 @@ export default function BottomLinks(Links){
         `
             <div class=${style_side('blinks')}>
                 <ul>
-                    <li><a href='#0'><i class='fa-brands fa-linkedin'></i></a></li>
+                    <li><a href='https://www.linkedin.com/in/waren-gador-18505b1b7/'><i class='fa-brands fa-linkedin'></i></a></li>
                 </ul>
                 <ul>
-                    <li><a href='#0'><i class='fa-brands fa-github'></i></a></li>
+                    <li><a href='https://github.com/Renstrio24p'><i class='fa-brands fa-github'></i></a></li>
                 </ul>
                 <ul>
                     <li><a href='#0'><i class='fa-brands fa-twitter'></i></a></li>
