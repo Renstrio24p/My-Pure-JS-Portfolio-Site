@@ -11,7 +11,7 @@ export default function SidebarContent(Side){
             <div class=${style_side('top-side')}>
                 <div class="${style_side('container')}">
                     <div class="${style_side('dot')}"></div>
-                    <img src="./src/images/wareng.png" alt="profile" />
+                    <img src="./src/images/wareng.webp" alt="profile" />
                 </div>
                 <h1 class=${style_side('font-size-20px')}>Waren Gador</h1>
                 <p class=${style_side('career')}>
