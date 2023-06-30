@@ -1,0 +1,51 @@
+.rightbar.open {
+    width: 100px;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+  }
+  
+  .rightbar.open {
+    width: 300px;
+  }
+  
+  .hamburger {
+    padding: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .font-container {
+    padding: 20px;
+  }
+  
+  .font-rotate {
+    transform: rotate(-90deg);
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .collapsible-content {
+    display: none;
+    overflow: auto;
+    max-height: calc(100% - 40px); /* Adjust the value based on the available height for the content */
+  }
+  
+  .collapsible-content.open {
+    display: block;
+  }
+  
+  .collapsible-content ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .collapsible-content ul li {
+    padding: 5px 0;
+  }
+  
