@@ -4,18 +4,18 @@ export default function RightbarContent(Right){
     Right.innerHTML = (
         `
         <div id='rightbar' class="${style_right('rightbar')}">
-        <div id="ham" class="${style_right('hamburger')}">Hamburger Here</div>
-        <div class="${style_right('font-container')}">
-          <h2 class="${style_right('font-rotate')}">Portfolio</h2>
-          <div id="content" class="${style_right('collapsible-content')}">
-            <ul>
-              <li>Profile</li>
-              <li>Profile</li>
-              <li>Profile</li>
-              <li>Profile</li>
-            </ul>
-          </div>
-        </div>
+            <div id="ham" class="${style_right('hamburger')}">Hamburger Here</div>
+            <div class="${style_right('font-container')}">
+            <h2 class="${style_right('font-rotate')}">Portfolio</h2>
+                <div id="content" class="${style_right('collapsible-content')}">
+                    <ul>
+                        <li>Profile</li>
+                        <li>Profile</li>
+                        <li>Profile</li>
+                        <li>Profile</li>
+                    </ul>
+                </div>
+            </div>
       </div>
       
         `
