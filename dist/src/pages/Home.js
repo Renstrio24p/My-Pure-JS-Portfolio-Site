@@ -12,6 +12,7 @@ export default function HomePage(Home) {
                         <span>&lt;type&gt;</span>
                             DOM
                         <span>&lt;/type&gt;</span>
+                        <div id='Hire-me'></div>
                     </div>
                     <div id='repo'></div>
                     <div id='services'></div>
