@@ -1,0 +1,272 @@
+.DOM {
+  width: 100%;
+  height: 140vh;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(36, 36, 36);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.712) 0px 5px 15px;
+}
+
+.sidebar img {
+  width: 100px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.donut-text {
+  transform: rotate(50%);
+}
+
+.dot {
+  position: absolute;
+  bottom: 15%;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: rgb(109, 217, 224);
+  border-radius: 50%;
+  border: 5px solid rgb(51, 53, 53);
+}
+
+.divider {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #4b4a4a;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+
+.top-side {
+  width: 100%;
+  background-color: rgb(51, 53, 53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.bottom-side {
+  margin-top: 250px;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  padding: 15px;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  
+}
+
+.font-size-20px {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.career {
+  font-size: 14px;
+  color: #fff;
+  padding: 15px;
+}
+
+.codeit {
+  width: 100%;
+  white-space: pre-line;
+  color: #fff;
+  background-color: rgb(36, 35, 35);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.info-list {
+  width: 100%;
+}
+
+.info-list li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-detail {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.info-ans {
+  color: #b8ecf5;
+  font-size: 14px;
+}
+
+.d-flex-between {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donut-progress-bar {
+  width: 100px;
+  height: 100px;
+}
+
+.donut {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+  
+}
+
+.donut-hole {
+  fill: transparent;
+  
+}
+
+.donut-ring {
+  fill: none;
+  stroke: lightgray;
+  stroke-width: 10;
+}
+
+.donut-segment {
+  fill: rgb(52, 53, 53);
+  stroke: aqua;
+  stroke-width: 8;
+  stroke-dasharray: 0;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.donut-text {
+  fill: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lang {
+  font-weight: 500;
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+
+.stack-list {
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
+
+.stack-list li {
+  margin-bottom: 5px;
+}
+
+.d-flex-between-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+}
+
+.stack-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stack-percent {
+  color: #b9b9b9;
+  font-size: 14px;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #4b4a4a;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: rgb(10, 247, 247);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.check-list {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+}
+
+.check-list li {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.check-icon {
+  color: cyan;
+  font-weight: 600;
+}
+
+.check-desc {
+  color: #d6d4d4;
+  font-size: 14px;
+}
+
+.download-cv {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.fa-download {
+  color: rgb(147, 150, 150);
+}
+
+.download {
+  color: #d6d4d4;
+  font-size: 14px;
+}
+
+.blinks {
+  width: 100%;
+  background-color: rgb(51, 53, 53);
+  position:relative;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.blinks a:hover i {
+    color: aqua;
+    transition: .5s;
+}
