@@ -5,9 +5,9 @@
   right: 0;
   background-color: rgb(51, 53, 53);
   z-index: 99;
-  transition: width 0.3s ease;
   justify-content: left;
   display: flex;
+  transition: .5s;
 }
 
 .rightbar h2 {
@@ -21,7 +21,7 @@
 
 .rightbar.collapsed {
   width: 300px;
-  transition: width 0.3s ease;
+  transition: width 0.9s ease;
   justify-content: left;
 }
 

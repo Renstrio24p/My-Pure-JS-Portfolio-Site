@@ -1,34 +1,25 @@
 
-export default function Donut(){
+export default function DonutFunctions(){
 
-    function setDonutProgress(progress) {
-        const donutSegment = document.getElementById('donut-segment');
-        const donutText = document.getElementById('donut-text');
-        
-        const circumference = 2 * Math.PI * 45;
-        const offset = circumference - (progress / 100) * circumference;
-        
-        donutSegment.style.strokeDasharray = `${circumference} ${circumference}`;
-        donutSegment.style.strokeDashoffset = offset;
-        
-        donutText.textContent = `${progress}%`;
+    function animateDonutChart(segmentId, textId, maxPercent) {
+        const segment = document.getElementById(segmentId);
+        const text = document.getElementById(textId);
+    
+        let percent = 0;
+        const interval = Math.floor(2000 / maxPercent); 
+    
+        const timer = setInterval(() => {
+            segment.style.strokeDasharray = `${percent}, 100`;
+            text.textContent = `${percent}%`;
+            percent++;
+    
+            if (percent > maxPercent) {
+                clearInterval(timer);
+            }
+        }, interval);
     }
-
-    setDonutProgress(75);
-
-    function setDonutProgress2(progress) {
-        const donutSegment = document.getElementById('donut-segment2');
-        const donutText = document.getElementById('donut-text2');
-        
-        const circumference = 2 * Math.PI * 45;
-        const offset = circumference - (progress / 100) * circumference;
-        
-        donutSegment.style.strokeDasharray = `${circumference} ${circumference}`;
-        donutSegment.style.strokeDashoffset = offset;
-        
-        donutText.textContent = `${progress}%`;
-    }
-
-    setDonutProgress2(85);
+    
+    animateDonutChart('donut-segment', 'donut-text', 75); 
+    animateDonutChart('donut-segment2', 'donut-text2', 60); 
 
 }
