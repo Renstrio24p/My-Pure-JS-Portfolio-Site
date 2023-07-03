@@ -15,6 +15,18 @@
   color: white;
 }
 
+.types {
+  color: cyan
+}
+
+.type-line,.type-code {
+  display: flex;
+}
+
+.type-line {
+  width: 60%;
+}
+
 .home {
   width: 100%;
   background-image: url("../../images/background.webp");
@@ -160,4 +172,9 @@
 .service-item p {
   color: #fcfafa;
   font-size: 13px;
+}
+
+.proj-container {
+  padding-top: 20px;
+  color: #fff;
 }
