@@ -9,292 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/components/Footer.js":
-/*!**********************************!*\
-  !*** ./src/components/Footer.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FooterContent)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n\nfunction FooterContent(Footer) {\n  Footer.innerHTML = \"\\n            <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_footer)('footer'), \">\\n                <span>&copy; copyright 2023, Waren Gador</span>\\n            </div>\\n        \");\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Footer.js?");
-
-/***/ }),
-
-/***/ "./src/components/Home/Hire-me.js":
-/*!****************************************!*\
-  !*** ./src/components/Home/Hire-me.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HireMeContent)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\nfunction HireMeContent(Hire) {\n  Hire.innerHTML = \"\\n            <button class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('hire-me-btn'), \">Browse</button>\\n        \");\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Hire-me.js?");
-
-/***/ }),
-
-/***/ "./src/components/Home/Repo.js":
-/*!*************************************!*\
-  !*** ./src/components/Home/Repo.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RepoList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_count__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/count */ \"./src/components/Home/functions/count.js\");\n\n\nfunction RepoList(Repo) {\n  Repo.innerHTML = \"\\n        <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('repo-container'), \">\\n            <ul class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('repo-list'), \">\\n                <li> \\n                    <h2 id=\\\"repo-count\\\">59</h2>\\n                    <span>Github Repositories</span>\\n                </li>\\n                <li> \\n                    <h2 id=\\\"react-count\\\">9</h2>\\n                    <span>React Projects</span>\\n                </li>\\n                <li> \\n                    <h2 id=\\\"js-count\\\">7</h2>\\n                    <span>Javascript Projects</span>\\n                </li>\\n                <li> \\n                    <h2 id=\\\"ts-count\\\">7</h2>\\n                    <span>Typescript Projects</span>\\n                </li>\\n                <li> \\n                    <h2 id=\\\"collab-count\\\">2</h2>\\n                    <span>Collab Projects</span>\\n                </li>\\n            </ul>\\n        </div>\\n        \");\n  (0,_functions_count__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Repo.js?");
-
-/***/ }),
-
-/***/ "./src/components/Home/Services.js":
-/*!*****************************************!*\
-  !*** ./src/components/Home/Services.js ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ServiceList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\nfunction ServiceList(Services) {\n  Services.innerHTML = \"\\n            <h1 class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title'), \">My Services</h1>\\n            <ul class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('servicelist'), \">\\n                <li class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item'), \">\\n                        <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title'), \">\\n                            <h2>Web Development</h2>\\n                            <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon'), \">\\n                                <i class=\\\"fa-solid fa-code\\\"></i>\\n                            </div>\\n                        </div>\\n                        <p> Front-End Designing for UI/UX. \\n                            SEO Optimization, Performance.</p>\\n                </li>\\n                <li class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item'), \">\\n                        <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title'), \">\\n                            <h2>Data Analytics</h2>\\n                            <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon'), \">\\n                            <i class=\\\"fa-solid fa-chart-simple\\\"></i>\\n                            </div>\\n                        </div>\\n                        <p> Clean and Optimized Data Errors from the\\n                            Database recontruct corrupted data.</p>\\n                </li>\\n                <li class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item'), \">\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title'), \">\\n                        <h2>Networking</h2>\\n                        <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon'), \">\\n                            <i class=\\\"fa-solid fa-network-wired\\\"></i>\\n                        </div>\\n                    </div>\\n                        <p> Diagnositing Incoming Request from the server-side\\n                             to protect unwanted request.</p>\\n                </li>\\n                <li class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item'), \">\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title'), \">\\n                        <h2>Computer Setup</h2>\\n                        <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon'), \">\\n                            <i class=\\\"fa-solid fa-computer\\\"></i>\\n                        </div>\\n                    </div>\\n                        <p> Setup computer units and optimize computer performance,\\n                            Diagnosting Computer Errors.</p>\\n                </li>\\n            </ul>\\n        \");\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Services.js?");
-
-/***/ }),
-
-/***/ "./src/components/Home/functions/count.js":
-/*!************************************************!*\
-  !*** ./src/components/Home/functions/count.js ***!
-  \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Count)\n/* harmony export */ });\nfunction Count() {\n  var counts = {\n    'repo-count': 61,\n    'react-count': 9,\n    'js-count': 7,\n    'ts-count': 3,\n    'collab-count': 2\n  };\n  Object.keys(counts).forEach(function (key) {\n    var element = document.getElementById(key);\n    var maxCount = counts[key];\n    var interval = Math.floor(1500 / maxCount); // Adjust the interval based on the desired animation speed\n\n    var count = 0;\n    var timer = setInterval(function () {\n      element.innerText = count;\n      count++;\n      if (count > maxCount) {\n        clearInterval(timer);\n      }\n    }, interval);\n  });\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/functions/count.js?");
-
-/***/ }),
-
-/***/ "./src/components/Home/functions/type.js":
-/*!***********************************************!*\
-  !*** ./src/components/Home/functions/type.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ typeJS)\n/* harmony export */ });\n/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! typed.js */ \"./node_modules/typed.js/dist/typed.module.js\");\n\nfunction typeJS() {\n  var typed = new typed_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('#type-text', {\n    strings: [\"I'm a Front-End Developer\", \"I'm building React projects.\", \"I'm building Typescript \\nand Javascript Projects.\", \"I'm a template creator of React,\\n Javascript , typescript using Webpack \"],\n    typeSpeed: 20,\n    backSpeed: 5,\n    smartBackspace: true,\n    loop: true,\n    contentType: 'html'\n  });\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/functions/type.js?");
-
-/***/ }),
-
-/***/ "./src/components/Main.js":
-/*!********************************!*\
-  !*** ./src/components/Main.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MainContent)\n/* harmony export */ });\n/* harmony import */ var _render_main_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/main.render */ \"./src/render/main.render.js\");\n\nfunction MainContent(Main) {\n  Main.innerHTML = \"\\n            <div id='route'>\\n                <section id='home'></section>\\n            </div>\\n        \";\n  (0,_render_main_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Main.js?");
-
-/***/ }),
-
-/***/ "./src/components/Rightbar.js":
-/*!************************************!*\
-  !*** ./src/components/Rightbar.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RightbarContent)\n/* harmony export */ });\n/* harmony import */ var _render_Home_rightbar_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/Home/rightbar.render */ \"./src/render/Home/rightbar.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n/* harmony import */ var _rightbar_functions_rightbar_collapse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./rightbar/functions/rightbar_collapse */ \"./src/components/rightbar/functions/rightbar_collapse.js\");\n\n\n\nfunction RightbarContent(Right) {\n  Right.innerHTML = \"\\n    <div id=\\\"rightbarcontent\\\" class=\\\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('rightbar'), \"\\\">\\n      <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('content'), \">\\n        <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('hamburger'), \"\\\">\\n          <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line'), \"\\\"></div>\\n          <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line'), \"\\\"></div>\\n          <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line'), \"\\\"></div>\\n        </div>\\n        <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('content'), \"\\\">\\n          <h2>Portfolio</h2>\\n          <div id='rightlist'></div>\\n          <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('overlay'), \"\\\"></div>\\n        </div>\\n      </div>\\n    </div>\\n  \");\n  (0,_rightbar_functions_rightbar_collapse__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  (0,_render_Home_rightbar_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Rightbar.js?");
-
-/***/ }),
-
-/***/ "./src/components/Sidebar.js":
-/*!***********************************!*\
-  !*** ./src/components/Sidebar.js ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SidebarContent)\n/* harmony export */ });\n/* harmony import */ var _render_sidebar_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/sidebar.render */ \"./src/render/sidebar.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n/* harmony import */ var _sidebar_functions_donut__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sidebar/functions/donut */ \"./src/components/sidebar/functions/donut.js\");\n\n\n\nfunction SidebarContent(Side) {\n  Side.innerHTML = \"\\n            <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('top-side'), \">\\n                <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('container'), \"\\\">\\n                    <div class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('dot'), \"\\\"></div>\\n                    <img src=\\\"./src/images/wareng.webp\\\" alt=\\\"profile\\\" />\\n                </div>\\n                <h1 class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('font-size-20px'), \">Waren Gador</h1>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('career'), \">\\n                    UI/UX Front-End Web Developer.\\n                    Javascript & React\\n                </p>\\n                <pre class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('codeit'), \">\\n                    &lt;code&gt; I code it. &lt;/code&gt;\\n                </pre>\\n            </div>\\n            <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('bottom-side'), \">\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info'), \">\\n                    <ul class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-list'), \">\\n                        <li>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail'), \">Country</p>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans'), \">Philippines</p>\\n                        </li>\\n                        <li>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail'), \">City</p>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans'), \">Manila</p>\\n                        </li>\\n                        <li>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail'), \">Age</p>\\n                            <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans'), \">26</p>\\n                        </li>\\n                    </ul>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider'), \"></div>\\n                    <div  class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('d-flex-between'), \" id='donuts'></div>\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider'), \"></div>\\n                    <div id='stacks'></div>\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider'), \"></div>\\n                    <div id='checks'></div>\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider'), \"></div>\\n                    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('download-cv'), \"> \\n                        <p class='fa-solid fa-download'></p>\\n                        <a class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('download'), \" href='#0'>Download CV</a>\\n                    </div>\\n                    <div id='bottom-side-links'></div>\\n                    </div>\\n                    </div>\\n        \");\n  (0,_render_sidebar_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Sidebar.js?");
-
-/***/ }),
-
-/***/ "./src/components/rightbar/functions/rightbar_collapse.js":
-/*!****************************************************************!*\
-  !*** ./src/components/rightbar/functions/rightbar_collapse.js ***!
-  \****************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Rightbar_Collapse)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../start */ \"./src/start.js\");\n\nfunction Rightbar_Collapse() {\n  var rightbar = document.querySelector('#rightbarcontent');\n  var hamburger = document.querySelector(\".\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('hamburger')));\n  var overlay = document.querySelector(\".\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('overlay')));\n  hamburger.addEventListener('click', toggleRightBar);\n  document.addEventListener('click', closeRightBar);\n  function toggleRightBar(event) {\n    event.stopPropagation();\n    rightbar.classList.toggle(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')));\n    hamburger.classList.toggle(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('active')));\n    overlay.classList.toggle(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')));\n  }\n  function closeRightBar(event) {\n    if (rightbar.contains(event.target)) {\n      rightbar.classList.remove(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')));\n      hamburger.classList.remove(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('active')));\n      overlay.classList.remove(\"\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')));\n    }\n  }\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/rightbar/functions/rightbar_collapse.js?");
-
-/***/ }),
-
-/***/ "./src/components/rightbar/rightlist.js":
-/*!**********************************************!*\
-  !*** ./src/components/rightbar/rightlist.js ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RightbarList)\n/* harmony export */ });\nfunction RightbarList(RList) {\n  RList.innerHTML = \"\\n            <ul>\\n                <li>\\n                    <p>item 1</p>\\n                </li>\\n                <li>\\n                    <p>item 2</p>\\n                </li>\\n                <li>\\n                    <p>item 3</p>\\n                </li>\\n                <li>\\n                    <p>item 4</p>\\n                </li>\\n            </ul>\\n        \";\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/rightbar/rightlist.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/bottomlinks.js":
-/*!***********************************************!*\
-  !*** ./src/components/sidebar/bottomlinks.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ BottomLinks)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\nfunction BottomLinks(Links) {\n  Links.innerHTML = \"\\n            <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('blinks'), \">\\n                <ul>\\n                    <li><a \\n                        href='https://www.linkedin.com/in/waren-gador-18505b1b7/' \\n                        aria-label=\\\"linkedin\\\"\\n                        ><i class='fa-brands fa-linkedin'></i></a></li>\\n                </ul>\\n                <ul>\\n                    <li><a \\n                        href='https://github.com/Renstrio24p' \\n                        aria-label=\\\"github\\\"\\n                        ><i class='fa-brands fa-github'></i></a></li>\\n                </ul>\\n                <ul>\\n                    <li><a \\n                        href='https://twitter.com/waren_gador' \\n                        aria-label=\\\"twitter\\\"\\n                        ><i class='fa-brands fa-twitter'></i></a></li>\\n                </ul>\\n                <ul>\\n                    <li><a \\n                        href='https://www.facebook.com/renstrio' \\n                        aria-label=\\\"facebook\\\"\\n                        ><i class='fa-brands fa-facebook-f'></i></a></li>\\n                </ul>\\n            </div>\\n        \");\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/bottomlinks.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/checks.js":
-/*!******************************************!*\
-  !*** ./src/components/sidebar/checks.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CheckList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\nfunction CheckList(Check) {\n  Check.innerHTML = \"\\n            <ul class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-list'), \">\\n              <li>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon'), \">&#x2713;</p>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc'), \">React, Material UI</p>\\n              </li>\\n              <li>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon'), \">&#x2713;</p>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc'), \">Sass, CSS, Less</p>\\n              </li>\\n              <li>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon'), \">&#x2713;</p>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc'), \">Webpack, VueJS</p>\\n              </li>\\n              <li>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon'), \">&#x2713;</p>\\n                <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc'), \">Git, Github Workflows</p>\\n              </li>\\n            </ul>\\n        \");\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/checks.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/donuts.js":
-/*!******************************************!*\
-  !*** ./src/components/sidebar/donuts.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Donuts)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_donut__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/donut */ \"./src/components/sidebar/functions/donut.js\");\n\n\nfunction Donuts(donut) {\n  donut.innerHTML = \"\\n        <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-progress-bar'), \">\\n        <svg class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut'), \" viewBox=\\\"0 0 100 100\\\">\\n            <circle class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-hole'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <circle class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-ring'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <circle id='donut-segment2' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-segment'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <text id='donut-text2' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-text'), \" x=\\\"50\\\" y=\\\"57\\\" text-anchor=\\\"middle\\\" transform=\\\"rotate(90, 50, 50)\\\"></text>\\n        </svg>\\n        <h2 class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('lang'), \">Tagalog</h2>\\n    </div>\\n    <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-progress-bar'), \">\\n        <svg class=\\\"\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut'), \" viewBox=\\\"0 0 100 100\\\">\\n            <circle class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-hole'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <circle class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-ring'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <circle id='donut-segment' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-segment'), \" cx=\\\"50\\\" cy=\\\"50\\\" r=\\\"45\\\"></circle>\\n            <text id='donut-text' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-text'), \" x=\\\"50\\\" y=\\\"57\\\" text-anchor=\\\"middle\\\" transform=\\\"rotate(90, 50, 50)\\\"></text>\\n        </svg>\\n        <h2 class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('lang'), \">English</h2>\\n    </div>\\n        \");\n  (0,_functions_donut__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/donuts.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/functions/donut.js":
-/*!***************************************************!*\
-  !*** ./src/components/sidebar/functions/donut.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ DonutFunctions)\n/* harmony export */ });\nfunction DonutFunctions() {\n  function animateDonutChart(segmentId, textId, maxPercent) {\n    var segment = document.getElementById(segmentId);\n    var text = document.getElementById(textId);\n    var percent = 0;\n    var interval = Math.floor(2000 / maxPercent);\n    var timer = setInterval(function () {\n      segment.style.strokeDasharray = \"\".concat(percent, \", 100\");\n      text.textContent = \"\".concat(percent, \"%\");\n      percent++;\n      if (percent > maxPercent) {\n        clearInterval(timer);\n      }\n    }, interval);\n  }\n  animateDonutChart('donut-segment', 'donut-text', 75);\n  animateDonutChart('donut-segment2', 'donut-text2', 95);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/functions/donut.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/functions/progressbars.js":
-/*!**********************************************************!*\
-  !*** ./src/components/sidebar/functions/progressbars.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProgressBarFunction)\n/* harmony export */ });\nfunction ProgressBarFunction(progressBarId, maxPercentage) {\n  var element = document.getElementById(progressBarId);\n  var width = 0;\n  var identity = setInterval(scene, 10);\n  function scene() {\n    if (width >= maxPercentage) {\n      clearInterval(identity);\n    } else {\n      width++;\n      element.style.width = width + '%';\n    }\n  }\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/functions/progressbars.js?");
-
-/***/ }),
-
-/***/ "./src/components/sidebar/stacks.js":
-/*!******************************************!*\
-  !*** ./src/components/sidebar/stacks.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Stacks)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_progressbars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/progressbars */ \"./src/components/sidebar/functions/progressbars.js\");\n\n\nfunction Stacks(Stack) {\n  Stack.innerHTML = \"\\n        <ul class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-list'), \">\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">HTML5</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">90%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='html' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">CSS</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">85%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='css' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 85%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">SASS</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">65%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='scss' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 85%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">Javascript</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">79%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='javascript' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">React</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">80%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='react' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">MySQL</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">50%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='mysql' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">PosgresSQL</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">40%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='posgres' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">PHP</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">30%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='php' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">Typescript</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">50%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='typescript' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n            <li>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text'), \">\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name'), \">Webpack</p>\\n                    <p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent'), \">70%</p>\\n                </div>\\n                <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container'), \">\\n                    <div id='webpack' class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar'), \" style='width: 0%;'></div>\\n                </div>\\n            </li>\\n        </ul>\\n        \");\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('html', 90);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('css', 85);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('scss', 65);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('javascript', 79);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('react', 80);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('mysql', 50);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('posgres', 40);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('php', 30);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('typescript', 50);\n  (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('webpack', 70);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/stacks.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./start */ \"./src/start.js\");\n/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/index.scss */ \"./src/sass/index.scss\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\nvar DOM = document.querySelector('#root');\nDOM.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n(0,_start__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(DOM); // Renders the Element ID\n\n//# sourceURL=webpack://standalone-javascript/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/pages/Home.js":
-/*!***************************!*\
-  !*** ./src/pages/Home.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HomePage)\n/* harmony export */ });\n/* harmony import */ var _components_Home_functions_type__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Home/functions/type */ \"./src/components/Home/functions/type.js\");\n/* harmony import */ var _render_Home_home_render__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../render/Home/home.render */ \"./src/render/Home/home.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n\n\n\nfunction HomePage(Home) {\n  Home.innerHTML = \"\\n    <div class=\".concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('home'), \">\\n      <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('overlay'), \">\\n        <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('profile-home'), \">\\n          <h1>Design something Amazing with React!!</h1>\\n          <div class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-line'), \">\\n            <span class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-code'), \" id=\\\"type-start\\\">&lt;<p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('types'), \">type</p>&gt;</span>\\n            <span id=\\\"type-text\\\"></span>\\n            <span class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-code'), \" id=\\\"type-end\\\">&lt;<p class=\").concat((0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('types'), \">/type</p>&gt;</span>\\n          </div>\\n          <div id='Hire-me'></div>\\n        </div>\\n        <div id='repo'></div>\\n        <div id='services'></div>\\n        <footer id='footer'></footer>\\n      </div>\\n    </div>\\n  \");\n  (0,_render_Home_home_render__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  (0,_components_Home_functions_type__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/pages/Home.js?");
-
-/***/ }),
-
-/***/ "./src/render/Home/home.render.js":
-/*!****************************************!*\
-  !*** ./src/render/Home/home.render.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home_Render)\n/* harmony export */ });\n/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Footer */ \"./src/components/Footer.js\");\n/* harmony import */ var _components_Home_Hire_me__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Home/Hire-me */ \"./src/components/Home/Hire-me.js\");\n/* harmony import */ var _components_Home_Repo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Home/Repo */ \"./src/components/Home/Repo.js\");\n/* harmony import */ var _components_Home_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Home/Services */ \"./src/components/Home/Services.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\nfunction Home_Render() {\n  var HireMe = document.getElementById('Hire-me'),\n    Repos = document.getElementById('repo'),\n    Serve = document.getElementById('services'),\n    Footer = document.getElementById('footer');\n  window.addEventListener('DOMContentLoaded', function () {\n    HireMe.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Repos.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Serve.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Footer.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n  });\n  (0,_components_Home_Hire_me__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(HireMe);\n  (0,_components_Home_Repo__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(Repos);\n  (0,_components_Home_Services__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Serve);\n  (0,_components_Footer__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Footer);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/Home/home.render.js?");
-
-/***/ }),
-
-/***/ "./src/render/Home/rightbar.render.js":
-/*!********************************************!*\
-  !*** ./src/render/Home/rightbar.render.js ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Rightbar_Render)\n/* harmony export */ });\n/* harmony import */ var _components_rightbar_rightlist__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/rightbar/rightlist */ \"./src/components/rightbar/rightlist.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../security/Hashes */ \"./src/security/Hashes.js\");\n\n\nfunction Rightbar_Render() {\n  var RList = document.getElementById('rightlist');\n  window.addEventListener('DOMContentLoaded', function () {\n    RList.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n  (0,_components_rightbar_rightlist__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(RList);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/Home/rightbar.render.js?");
-
-/***/ }),
-
-/***/ "./src/render/main.render.js":
-/*!***********************************!*\
-  !*** ./src/render/main.render.js ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Main_Render)\n/* harmony export */ });\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Home */ \"./src/pages/Home.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\nfunction Main_Render() {\n  var Homes = document.getElementById('home');\n  window.addEventListener('DOMContentLoaded', function () {\n    Homes.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n  (0,_pages_Home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Homes);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/main.render.js?");
-
-/***/ }),
-
-/***/ "./src/render/render.js":
-/*!******************************!*\
-  !*** ./src/render/render.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Render)\n/* harmony export */ });\n/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Footer */ \"./src/components/Footer.js\");\n/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Main */ \"./src/components/Main.js\");\n/* harmony import */ var _components_Rightbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Rightbar */ \"./src/components/Rightbar.js\");\n/* harmony import */ var _components_Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Sidebar */ \"./src/components/Sidebar.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\n\nfunction Render() {\n  var DOM = document.getElementById('container'),\n    Sidebar = document.getElementById('sidebar'),\n    Rightbar = document.getElementById('rightbar'),\n    Main = document.getElementById('main');\n  window.addEventListener('DOMContentLoaded', function () {\n    DOM.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Sidebar.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Rightbar.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Main.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n  });\n  (0,_components_Sidebar__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Sidebar);\n  (0,_components_Main__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(Main);\n  (0,_components_Rightbar__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(Rightbar);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/render.js?");
-
-/***/ }),
-
-/***/ "./src/render/sidebar.render.js":
-/*!**************************************!*\
-  !*** ./src/render/sidebar.render.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Sidebar_Render)\n/* harmony export */ });\n/* harmony import */ var _components_sidebar_bottomlinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/sidebar/bottomlinks */ \"./src/components/sidebar/bottomlinks.js\");\n/* harmony import */ var _components_sidebar_checks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/sidebar/checks */ \"./src/components/sidebar/checks.js\");\n/* harmony import */ var _components_sidebar_donuts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/sidebar/donuts */ \"./src/components/sidebar/donuts.js\");\n/* harmony import */ var _components_sidebar_stacks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/sidebar/stacks */ \"./src/components/sidebar/stacks.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\nfunction Sidebar_Render() {\n  var DonutCharts = document.getElementById('donuts'),\n    Stack = document.getElementById('stacks'),\n    Checks = document.getElementById('checks'),\n    BLinks = document.getElementById('bottom-side-links');\n  window.addEventListener('DOMContentLoaded', function () {\n    DonutCharts.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Stack.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    Checks.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    BLinks.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n  });\n  (0,_components_sidebar_donuts__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(DonutCharts);\n  (0,_components_sidebar_stacks__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Stack);\n  (0,_components_sidebar_checks__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(Checks);\n  (0,_components_sidebar_bottomlinks__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(BLinks);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/sidebar.render.js?");
-
-/***/ }),
-
-/***/ "./src/security/Hashes.js":
-/*!********************************!*\
-  !*** ./src/security/Hashes.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ UniqueHash)\n/* harmony export */ });\nvar generatedHashes = new Set();\nfunction UniqueHash() {\n  var hash;\n  do {\n    hash = Math.random().toString(32).substring(2);\n  } while (generatedHashes.has(hash));\n  generatedHashes.add(hash);\n  return hash;\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/security/Hashes.js?");
-
-/***/ }),
-
-/***/ "./src/start.js":
-/*!**********************!*\
-  !*** ./src/start.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Start),\n/* harmony export */   style_footer: () => (/* binding */ style_footer),\n/* harmony export */   style_main: () => (/* binding */ style_main),\n/* harmony export */   style_right: () => (/* binding */ style_right),\n/* harmony export */   style_side: () => (/* binding */ style_side)\n/* harmony export */ });\n/* harmony import */ var _render_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./render/render */ \"./src/render/render.js\");\n/* harmony import */ var _sass_modules_sidebar_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/modules/sidebar.module.scss */ \"./src/sass/modules/sidebar.module.scss\");\n/* harmony import */ var _sass_modules_rightbar_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sass/modules/rightbar.module.scss */ \"./src/sass/modules/rightbar.module.scss\");\n/* harmony import */ var _sass_modules_app_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sass/modules/app.module.scss */ \"./src/sass/modules/app.module.scss\");\n/* harmony import */ var _sass_modules_footer_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sass/modules/footer.module.scss */ \"./src/sass/modules/footer.module.scss\");\n/* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames/bind */ \"./node_modules/classnames/bind.js\");\n/* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames_bind__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\nvar style_side = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_sidebar_module_scss__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n  style_right = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_rightbar_module_scss__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n  style_footer = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_footer_module_scss__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n  style_main = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_app_module_scss__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\nfunction Start(DOM) {\n  // Function here\n\n  DOM.innerHTML = \"\\n    <div id='container' class=\".concat(style_side('DOM'), \"\\\">\\n       <aside id='sidebar' class=\").concat(style_side('sidebar'), \"></aside>\\n       <main id='main' class=\").concat(style_main('main-style'), \"></main>\\n       <aside id='rightbar' class=\").concat(style_right('rightbar'), \"></aside>\\n    </div>\\n  \");\n  (0,_render_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(); // Renders all your JS Components\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/start.js?");
-
-/***/ }),
-
 /***/ "./node_modules/classnames/bind.js":
 /*!*****************************************!*\
   !*** ./node_modules/classnames/bind.js ***!
@@ -511,6 +225,292 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 
 "use strict";
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://standalone-javascript/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+/***/ }),
+
+/***/ "./src/components/Footer.js":
+/*!**********************************!*\
+  !*** ./src/components/Footer.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FooterContent)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n\n\nfunction FooterContent(Footer){\n\n    Footer.innerHTML = (\n        `\n            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_footer)('footer')}>\n                <span>&copy; copyright 2023, Waren Gador</span>\n            </div>\n        `\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Footer.js?");
+
+/***/ }),
+
+/***/ "./src/components/Home/Hire-me.js":
+/*!****************************************!*\
+  !*** ./src/components/Home/Hire-me.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HireMeContent)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction HireMeContent(Hire){\n\n    Hire.innerHTML = (\n        `\n            <button class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('hire-me-btn')}>Browse</button>\n        `\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Hire-me.js?");
+
+/***/ }),
+
+/***/ "./src/components/Home/Repo.js":
+/*!*************************************!*\
+  !*** ./src/components/Home/Repo.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RepoList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_count__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/count */ \"./src/components/Home/functions/count.js\");\n\n\n\nfunction RepoList(Repo){\n\n    Repo.innerHTML = (\n        `\n        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('repo-container')}>\n            <ul class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('repo-list')}>\n                <li> \n                    <h2 id=\"repo-count\">59</h2>\n                    <span>Github Repositories</span>\n                </li>\n                <li> \n                    <h2 id=\"react-count\">9</h2>\n                    <span>React Projects</span>\n                </li>\n                <li> \n                    <h2 id=\"js-count\">7</h2>\n                    <span>Javascript Projects</span>\n                </li>\n                <li> \n                    <h2 id=\"ts-count\">7</h2>\n                    <span>Typescript Projects</span>\n                </li>\n                <li> \n                    <h2 id=\"collab-count\">2</h2>\n                    <span>Collab Projects</span>\n                </li>\n            </ul>\n        </div>\n        `\n    )\n\n    ;(0,_functions_count__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Repo.js?");
+
+/***/ }),
+
+/***/ "./src/components/Home/Services.js":
+/*!*****************************************!*\
+  !*** ./src/components/Home/Services.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ServiceList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction ServiceList(Services){\n    Services.innerHTML = (\n        `\n            <h1 class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title')}>My Services</h1>\n            <ul class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('servicelist')}>\n                <li class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item')}>\n                        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title')}>\n                            <h2>Web Development</h2>\n                            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon')}>\n                                <i class=\"fa-solid fa-code\"></i>\n                            </div>\n                        </div>\n                        <p> Front-End Designing for UI/UX. \n                            SEO Optimization, Performance.</p>\n                </li>\n                <li class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item')}>\n                        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title')}>\n                            <h2>Data Analytics</h2>\n                            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon')}>\n                            <i class=\"fa-solid fa-chart-simple\"></i>\n                            </div>\n                        </div>\n                        <p> Clean and Optimized Data Errors from the\n                            Database recontruct corrupted data.</p>\n                </li>\n                <li class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item')}>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title')}>\n                        <h2>Networking</h2>\n                        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon')}>\n                            <i class=\"fa-solid fa-network-wired\"></i>\n                        </div>\n                    </div>\n                        <p> Diagnositing Incoming Request from the server-side\n                             to protect unwanted request.</p>\n                </li>\n                <li class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-item')}>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-title')}>\n                        <h2>Computer Setup</h2>\n                        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('service-icon')}>\n                            <i class=\"fa-solid fa-computer\"></i>\n                        </div>\n                    </div>\n                        <p> Setup computer units and optimize computer performance,\n                            Diagnosting Computer Errors.</p>\n                </li>\n            </ul>\n        `\n    )\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/Services.js?");
+
+/***/ }),
+
+/***/ "./src/components/Home/functions/count.js":
+/*!************************************************!*\
+  !*** ./src/components/Home/functions/count.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Count)\n/* harmony export */ });\n\nfunction Count(){\n\n    const counts = {\n        'repo-count': 61,\n        'react-count': 9,\n        'js-count': 7,\n        'ts-count': 3,\n        'collab-count': 2\n    };\n\n    Object.keys(counts).forEach(key => {\n        const element = document.getElementById(key);\n        const maxCount = counts[key];\n        const interval = Math.floor(1500 / maxCount); // Adjust the interval based on the desired animation speed\n\n        let count = 0;\n        const timer = setInterval(() => {\n            element.innerText = count;\n            count++;\n            if (count > maxCount) {\n                clearInterval(timer);\n            }\n        }, interval);\n    });\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/functions/count.js?");
+
+/***/ }),
+
+/***/ "./src/components/Home/functions/type.js":
+/*!***********************************************!*\
+  !*** ./src/components/Home/functions/type.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ typeJS)\n/* harmony export */ });\n/* harmony import */ var typed_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! typed.js */ \"./node_modules/typed.js/dist/typed.module.js\");\n\n\nfunction typeJS(){\n    const typed = new typed_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('#type-text', {\n        strings: [`I'm a Front-End Developer`,\n                  `I'm building React projects.`, \n                  `I'm building Typescript \\nand Javascript Projects.`,\n                  `I'm a template creator of React,\\n Javascript , typescript using Webpack `\n                ],\n        typeSpeed: 20,\n        backSpeed: 5,\n        smartBackspace: true,\n        loop: true,\n        contentType: 'html' \n      });\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/functions/type.js?");
+
+/***/ }),
+
+/***/ "./src/components/Main.js":
+/*!********************************!*\
+  !*** ./src/components/Main.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MainContent)\n/* harmony export */ });\n/* harmony import */ var _render_main_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/main.render */ \"./src/render/main.render.js\");\n\n\nfunction MainContent(Main){\n\n    Main.innerHTML = (\n        `\n            <div id='route'>\n                <section id='home'></section>\n            </div>\n        `\n    )\n\n    ;(0,_render_main_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Main.js?");
+
+/***/ }),
+
+/***/ "./src/components/Rightbar.js":
+/*!************************************!*\
+  !*** ./src/components/Rightbar.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RightbarContent)\n/* harmony export */ });\n/* harmony import */ var _render_Home_rightbar_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/Home/rightbar.render */ \"./src/render/Home/rightbar.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n/* harmony import */ var _rightbar_functions_rightbar_collapse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./rightbar/functions/rightbar_collapse */ \"./src/components/rightbar/functions/rightbar_collapse.js\");\n\n\n\n\nfunction RightbarContent(Right) {\n  Right.innerHTML = (\n    `\n    <div id=\"rightbarcontent\" class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('rightbar')}\">\n      <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('content')}>\n        <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('hamburger')}\">\n          <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line')}\"></div>\n          <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line')}\"></div>\n          <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('line')}\"></div>\n        </div>\n        <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('content')}\">\n          <h2>Portfolio</h2>\n          <div id='rightlist'></div>\n          <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_right)('overlay')}\"></div>\n        </div>\n      </div>\n    </div>\n  `\n  )\n\n  ;(0,_rightbar_functions_rightbar_collapse__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  (0,_render_Home_rightbar_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n}\n\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Rightbar.js?");
+
+/***/ }),
+
+/***/ "./src/components/Sidebar.js":
+/*!***********************************!*\
+  !*** ./src/components/Sidebar.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SidebarContent)\n/* harmony export */ });\n/* harmony import */ var _render_sidebar_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../render/sidebar.render */ \"./src/render/sidebar.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n/* harmony import */ var _sidebar_functions_donut__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sidebar/functions/donut */ \"./src/components/sidebar/functions/donut.js\");\n\n\n\n\nfunction SidebarContent(Side){\n\n\n\n    Side.innerHTML = (\n        `\n            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('top-side')}>\n                <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('container')}\">\n                    <div class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('dot')}\"></div>\n                    <img src=\"./src/images/wareng.webp\" alt=\"profile\" />\n                </div>\n                <h1 class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('font-size-20px')}>Waren Gador</h1>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('career')}>\n                    UI/UX Front-End Web Developer.\n                    Javascript & React\n                </p>\n                <pre class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('codeit')}>\n                    &lt;code&gt; I code it. &lt;/code&gt;\n                </pre>\n            </div>\n            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('bottom-side')}>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info')}>\n                    <ul class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-list')}>\n                        <li>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail')}>Country</p>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans')}>Philippines</p>\n                        </li>\n                        <li>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail')}>City</p>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans')}>Manila</p>\n                        </li>\n                        <li>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-detail')}>Age</p>\n                            <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('info-ans')}>26</p>\n                        </li>\n                    </ul>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider')}></div>\n                    <div  class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('d-flex-between')} id='donuts'></div>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider')}></div>\n                    <div id='stacks'></div>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider')}></div>\n                    <div id='checks'></div>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('divider')}></div>\n                    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('download-cv')}> \n                        <p class='fa-solid fa-download'></p>\n                        <a class=${(0,_start__WEBPACK_IMPORTED_MODULE_1__.style_side)('download')} href='#0'>Download CV</a>\n                    </div>\n                    <div id='bottom-side-links'></div>\n                    </div>\n                    </div>\n        `\n    )\n\n\n    ;(0,_render_sidebar_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Sidebar.js?");
+
+/***/ }),
+
+/***/ "./src/components/rightbar/functions/rightbar_collapse.js":
+/*!****************************************************************!*\
+  !*** ./src/components/rightbar/functions/rightbar_collapse.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Rightbar_Collapse)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../start */ \"./src/start.js\");\n\n\nfunction Rightbar_Collapse() {\n\n    const rightbar = document.querySelector('#rightbarcontent');\n    const hamburger = document.querySelector(`.${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('hamburger')}`);\n    const overlay = document.querySelector(`.${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('overlay')}`);\n\n    hamburger.addEventListener('click', toggleRightBar);\n    document.addEventListener('click', closeRightBar);\n\n    function toggleRightBar(event) {\n        event.stopPropagation();\n        rightbar.classList.toggle(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')}`);\n        hamburger.classList.toggle(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('active')}`);\n        overlay.classList.toggle(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')}`);\n    }\n\n    function closeRightBar(event) {\n        if (rightbar.contains(event.target)) {\n            rightbar.classList.remove(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')}`);\n            hamburger.classList.remove(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('active')}`);\n            overlay.classList.remove(`${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_right)('collapsed')}`);\n        }\n    }\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/rightbar/functions/rightbar_collapse.js?");
+
+/***/ }),
+
+/***/ "./src/components/rightbar/rightlist.js":
+/*!**********************************************!*\
+  !*** ./src/components/rightbar/rightlist.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RightbarList)\n/* harmony export */ });\n\nfunction RightbarList(RList){\n\n    RList.innerHTML = (\n\n        `\n            <ul>\n                <li>\n                    <p>item 1</p>\n                </li>\n                <li>\n                    <p>item 2</p>\n                </li>\n                <li>\n                    <p>item 3</p>\n                </li>\n                <li>\n                    <p>item 4</p>\n                </li>\n            </ul>\n        `\n\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/rightbar/rightlist.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/bottomlinks.js":
+/*!***********************************************!*\
+  !*** ./src/components/sidebar/bottomlinks.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ BottomLinks)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction BottomLinks(Links){\n    \n    Links.innerHTML = (\n        `\n            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('blinks')}>\n                <ul>\n                    <li><a \n                        href='https://www.linkedin.com/in/waren-gador-18505b1b7/' \n                        aria-label=\"linkedin\"\n                        ><i class='fa-brands fa-linkedin'></i></a></li>\n                </ul>\n                <ul>\n                    <li><a \n                        href='https://github.com/Renstrio24p' \n                        aria-label=\"github\"\n                        ><i class='fa-brands fa-github'></i></a></li>\n                </ul>\n                <ul>\n                    <li><a \n                        href='https://twitter.com/waren_gador' \n                        aria-label=\"twitter\"\n                        ><i class='fa-brands fa-twitter'></i></a></li>\n                </ul>\n                <ul>\n                    <li><a \n                        href='https://www.facebook.com/renstrio' \n                        aria-label=\"facebook\"\n                        ><i class='fa-brands fa-facebook-f'></i></a></li>\n                </ul>\n            </div>\n        `\n    )\n\n}\n\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/bottomlinks.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/checks.js":
+/*!******************************************!*\
+  !*** ./src/components/sidebar/checks.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CheckList)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction CheckList(Check){\n\n    Check.innerHTML = (\n        `\n            <ul class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-list')}>\n              <li>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon')}>&#x2713;</p>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc')}>React, Material UI</p>\n              </li>\n              <li>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon')}>&#x2713;</p>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc')}>Sass, CSS, Less</p>\n              </li>\n              <li>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon')}>&#x2713;</p>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc')}>Webpack, VueJS</p>\n              </li>\n              <li>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-icon')}>&#x2713;</p>\n                <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('check-desc')}>Git, Github Workflows</p>\n              </li>\n            </ul>\n        `\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/checks.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/donuts.js":
+/*!******************************************!*\
+  !*** ./src/components/sidebar/donuts.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Donuts)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_donut__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/donut */ \"./src/components/sidebar/functions/donut.js\");\n\n\n\nfunction Donuts(donut){\n\n    donut.innerHTML = (\n        `\n        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-progress-bar')}>\n        <svg class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut')} viewBox=\"0 0 100 100\">\n            <circle class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-hole')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <circle class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-ring')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <circle id='donut-segment2' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-segment')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <text id='donut-text2' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-text')} x=\"50\" y=\"57\" text-anchor=\"middle\" transform=\"rotate(90, 50, 50)\"></text>\n        </svg>\n        <h2 class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('lang')}>Tagalog</h2>\n    </div>\n    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-progress-bar')}>\n        <svg class=\"${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut')} viewBox=\"0 0 100 100\">\n            <circle class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-hole')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <circle class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-ring')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <circle id='donut-segment' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-segment')} cx=\"50\" cy=\"50\" r=\"45\"></circle>\n            <text id='donut-text' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('donut-text')} x=\"50\" y=\"57\" text-anchor=\"middle\" transform=\"rotate(90, 50, 50)\"></text>\n        </svg>\n        <h2 class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('lang')}>English</h2>\n    </div>\n        `\n    )\n    ;(0,_functions_donut__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/donuts.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/functions/donut.js":
+/*!***************************************************!*\
+  !*** ./src/components/sidebar/functions/donut.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ DonutFunctions)\n/* harmony export */ });\n\nfunction DonutFunctions(){\n\n    function animateDonutChart(segmentId, textId, maxPercent) {\n        const segment = document.getElementById(segmentId);\n        const text = document.getElementById(textId);\n    \n        let percent = 0;\n        const interval = Math.floor(2000 / maxPercent); \n    \n        const timer = setInterval(() => {\n            segment.style.strokeDasharray = `${percent}, 100`;\n            text.textContent = `${percent}%`;\n            percent++;\n    \n            if (percent > maxPercent) {\n                clearInterval(timer);\n            }\n        }, interval);\n    }\n    \n    animateDonutChart('donut-segment', 'donut-text', 75); \n    animateDonutChart('donut-segment2', 'donut-text2', 95); \n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/functions/donut.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/functions/progressbars.js":
+/*!**********************************************************!*\
+  !*** ./src/components/sidebar/functions/progressbars.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProgressBarFunction)\n/* harmony export */ });\n\nfunction ProgressBarFunction(progressBarId, maxPercentage) {\n    var element = document.getElementById(progressBarId);\n    var width = 0;\n    var identity = setInterval(scene, 10);\n    \n    function scene() {\n      if (width >= maxPercentage) {\n        clearInterval(identity);\n      } else {\n        width++;\n        element.style.width = width + '%';\n      }\n    }\n  }\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/functions/progressbars.js?");
+
+/***/ }),
+
+/***/ "./src/components/sidebar/stacks.js":
+/*!******************************************!*\
+  !*** ./src/components/sidebar/stacks.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Stacks)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n/* harmony import */ var _functions_progressbars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/progressbars */ \"./src/components/sidebar/functions/progressbars.js\");\n\n\n\nfunction Stacks(Stack) {\n    Stack.innerHTML = (\n        `\n        <ul class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-list')}>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>HTML5</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>90%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='html' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>CSS</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>85%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='css' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 85%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>SASS</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>65%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='scss' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 85%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>Javascript</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>79%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='javascript' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>React</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>80%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='react' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>MySQL</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>50%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='mysql' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>PosgresSQL</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>40%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='posgres' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>PHP</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>30%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='php' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>Typescript</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>50%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='typescript' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n            <li>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('d-flex-between-text')}>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-name')}>Webpack</p>\n                    <p class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('stack-percent')}>70%</p>\n                </div>\n                <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-container')}>\n                    <div id='webpack' class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_side)('progress-bar')} style='width: 0%;'></div>\n                </div>\n            </li>\n        </ul>\n        `\n    );\n\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('html',90);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('css',85);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('scss',65);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('javascript',79);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('react',80);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('mysql',50);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('posgres',40);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('php',30);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('typescript',50);\n   (0,_functions_progressbars__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('webpack',70);\n}\n\n\n//# sourceURL=webpack://standalone-javascript/./src/components/sidebar/stacks.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./start */ \"./src/start.js\");\n/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/index.scss */ \"./src/sass/index.scss\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\nconst DOM = document.querySelector('#root');\nDOM.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n(0,_start__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(DOM); // Renders the Element ID\n\n\n//# sourceURL=webpack://standalone-javascript/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/pages/Home.js":
+/*!***************************!*\
+  !*** ./src/pages/Home.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HomePage)\n/* harmony export */ });\n/* harmony import */ var _components_Home_functions_type__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Home/functions/type */ \"./src/components/Home/functions/type.js\");\n/* harmony import */ var _render_Home_home_render__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../render/Home/home.render */ \"./src/render/Home/home.render.js\");\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../start */ \"./src/start.js\");\n\n\n\n\nfunction HomePage(Home) {\n  Home.innerHTML = `\n    <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('home')}>\n      <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('overlay')}>\n        <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('profile-home')}>\n          <h1>Design something Amazing with React!!</h1>\n          <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-line')}>\n            <span class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-code')} id=\"type-start\">&lt;<p class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('types')}>type</p>&gt;</span>\n            <span id=\"type-text\"></span>\n            <span class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('type-code')} id=\"type-end\">&lt;<p class=${(0,_start__WEBPACK_IMPORTED_MODULE_2__.style_main)('types')}>/type</p>&gt;</span>\n          </div>\n          <div id='Hire-me'></div>\n        </div>\n        <div id='repo'></div>\n        <div id='services'></div>\n        <footer id='footer'></footer>\n      </div>\n    </div>\n  `;\n\n  (0,_render_Home_home_render__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  (0,_components_Home_functions_type__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\n\n//# sourceURL=webpack://standalone-javascript/./src/pages/Home.js?");
+
+/***/ }),
+
+/***/ "./src/render/Home/home.render.js":
+/*!****************************************!*\
+  !*** ./src/render/Home/home.render.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home_Render)\n/* harmony export */ });\n/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Footer */ \"./src/components/Footer.js\");\n/* harmony import */ var _components_Home_Hire_me__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Home/Hire-me */ \"./src/components/Home/Hire-me.js\");\n/* harmony import */ var _components_Home_Repo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Home/Repo */ \"./src/components/Home/Repo.js\");\n/* harmony import */ var _components_Home_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Home/Services */ \"./src/components/Home/Services.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\n\nfunction Home_Render(){\n\n    const HireMe = document.getElementById('Hire-me'),\n          Repos = document.getElementById('repo'),\n          Serve = document.getElementById('services'),\n          Footer = document.getElementById('footer');\n\n    window.addEventListener('DOMContentLoaded', () => {\n        HireMe.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Repos.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Serve.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Footer.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    })\n\n    ;(0,_components_Home_Hire_me__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(HireMe);\n    (0,_components_Home_Repo__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(Repos);\n    (0,_components_Home_Services__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Serve);\n    (0,_components_Footer__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Footer);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/Home/home.render.js?");
+
+/***/ }),
+
+/***/ "./src/render/Home/rightbar.render.js":
+/*!********************************************!*\
+  !*** ./src/render/Home/rightbar.render.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Rightbar_Render)\n/* harmony export */ });\n/* harmony import */ var _components_rightbar_rightlist__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/rightbar/rightlist */ \"./src/components/rightbar/rightlist.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\nfunction Rightbar_Render(){\n    const RList = document.getElementById('rightlist');\n    window.addEventListener('DOMContentLoaded', () => {\n        RList.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    })\n\n    ;(0,_components_rightbar_rightlist__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(RList);\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/Home/rightbar.render.js?");
+
+/***/ }),
+
+/***/ "./src/render/main.render.js":
+/*!***********************************!*\
+  !*** ./src/render/main.render.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Main_Render)\n/* harmony export */ });\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Home */ \"./src/pages/Home.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\nfunction Main_Render(){\n\n    const Homes = document.getElementById('home');\n\n    window.addEventListener('DOMContentLoaded', () => {\n        Homes.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    })\n\n    ;(0,_pages_Home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(Homes);\n   \n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/main.render.js?");
+
+/***/ }),
+
+/***/ "./src/render/render.js":
+/*!******************************!*\
+  !*** ./src/render/render.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Render)\n/* harmony export */ });\n/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Footer */ \"./src/components/Footer.js\");\n/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Main */ \"./src/components/Main.js\");\n/* harmony import */ var _components_Rightbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Rightbar */ \"./src/components/Rightbar.js\");\n/* harmony import */ var _components_Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Sidebar */ \"./src/components/Sidebar.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\n\n\nfunction Render(){\n\n    const DOM = document.getElementById('container'),\n          Sidebar = document.getElementById('sidebar'),\n          Rightbar = document.getElementById('rightbar'), \n          Main = document.getElementById('main');\n\n    window.addEventListener('DOMContentLoaded', () => {\n        DOM.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Sidebar.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Rightbar.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Main.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    })\n\n    ;(0,_components_Sidebar__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Sidebar);\n    (0,_components_Main__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(Main);\n    (0,_components_Rightbar__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(Rightbar);\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/render.js?");
+
+/***/ }),
+
+/***/ "./src/render/sidebar.render.js":
+/*!**************************************!*\
+  !*** ./src/render/sidebar.render.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Sidebar_Render)\n/* harmony export */ });\n/* harmony import */ var _components_sidebar_bottomlinks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/sidebar/bottomlinks */ \"./src/components/sidebar/bottomlinks.js\");\n/* harmony import */ var _components_sidebar_checks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/sidebar/checks */ \"./src/components/sidebar/checks.js\");\n/* harmony import */ var _components_sidebar_donuts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/sidebar/donuts */ \"./src/components/sidebar/donuts.js\");\n/* harmony import */ var _components_sidebar_stacks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/sidebar/stacks */ \"./src/components/sidebar/stacks.js\");\n/* harmony import */ var _security_Hashes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../security/Hashes */ \"./src/security/Hashes.js\");\n\n\n\n\n\n\nfunction Sidebar_Render(){\n\n    const DonutCharts = document.getElementById('donuts'),\n          Stack = document.getElementById('stacks'),\n          Checks = document.getElementById('checks'),\n          BLinks = document.getElementById('bottom-side-links');\n\n    window.addEventListener('DOMContentLoaded', () => {\n        DonutCharts.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Stack.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        Checks.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n        BLinks.id = (0,_security_Hashes__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    })\n\n    ;(0,_components_sidebar_donuts__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(DonutCharts);\n    (0,_components_sidebar_stacks__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(Stack);\n    (0,_components_sidebar_checks__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(Checks);\n    (0,_components_sidebar_bottomlinks__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(BLinks);\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/render/sidebar.render.js?");
+
+/***/ }),
+
+/***/ "./src/security/Hashes.js":
+/*!********************************!*\
+  !*** ./src/security/Hashes.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ UniqueHash)\n/* harmony export */ });\nconst generatedHashes = new Set();\n\nfunction UniqueHash() {\n  let hash;\n  do {\n    hash = Math.random().toString(32).substring(2);\n  } while (generatedHashes.has(hash));\n  generatedHashes.add(hash);\n  return hash;\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/security/Hashes.js?");
+
+/***/ }),
+
+/***/ "./src/start.js":
+/*!**********************!*\
+  !*** ./src/start.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Start),\n/* harmony export */   style_footer: () => (/* binding */ style_footer),\n/* harmony export */   style_main: () => (/* binding */ style_main),\n/* harmony export */   style_right: () => (/* binding */ style_right),\n/* harmony export */   style_side: () => (/* binding */ style_side)\n/* harmony export */ });\n/* harmony import */ var _render_render__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./render/render */ \"./src/render/render.js\");\n/* harmony import */ var _sass_modules_sidebar_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/modules/sidebar.module.scss */ \"./src/sass/modules/sidebar.module.scss\");\n/* harmony import */ var _sass_modules_rightbar_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sass/modules/rightbar.module.scss */ \"./src/sass/modules/rightbar.module.scss\");\n/* harmony import */ var _sass_modules_app_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sass/modules/app.module.scss */ \"./src/sass/modules/app.module.scss\");\n/* harmony import */ var _sass_modules_footer_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sass/modules/footer.module.scss */ \"./src/sass/modules/footer.module.scss\");\n/* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames/bind */ \"./node_modules/classnames/bind.js\");\n/* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames_bind__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\nconst style_side = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_sidebar_module_scss__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n             style_right = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_rightbar_module_scss__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n             style_footer = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_footer_module_scss__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n             style_main = classnames_bind__WEBPACK_IMPORTED_MODULE_5___default().bind(_sass_modules_app_module_scss__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\n\nfunction Start(DOM) {\n  // Function here\n\n  DOM.innerHTML = `\n    <div id='container' class=${style_side('DOM')}\">\n       <aside id='sidebar' class=${style_side('sidebar')}></aside>\n       <main id='main' class=${style_main('main-style')}></main>\n       <aside id='rightbar' class=${style_right('rightbar')}></aside>\n    </div>\n  `;\n\n    (0,_render_render__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(); // Renders all your JS Components\n}\n\n\n//# sourceURL=webpack://standalone-javascript/./src/start.js?");
 
 /***/ }),
 
