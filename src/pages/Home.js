@@ -17,6 +17,7 @@ export default function HomePage(Home) {
         </div>
         <div id='repo'></div>
         <div id='services'></div>
+        <div id='projects'></div>
         <footer id='footer'></footer>
       </div>
     </div>
