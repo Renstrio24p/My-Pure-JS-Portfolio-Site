@@ -20,6 +20,6 @@ export default function DonutFunctions(){
     }
     
     animateDonutChart('donut-segment', 'donut-text', 75); 
-    animateDonutChart('donut-segment2', 'donut-text2', 60); 
+    animateDonutChart('donut-segment2', 'donut-text2', 95); 
 
 }
