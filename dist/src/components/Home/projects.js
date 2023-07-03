@@ -6,6 +6,14 @@ export default function Project(Proj){
         `
          <div class=${style_main('proj-container')}>
             <h1>Rendered Project</h1>
+            <div class=${style_main('project-list')}>
+            <h2>Templates</h2>
+            <ul>
+                <li>
+                
+                </li>
+            </ul>
+            </div>
          </div>
         `
     )
