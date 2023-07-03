@@ -301,7 +301,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Project)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction Project(Proj){\n\n    Proj.innerHTML = (\n        `\n         <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('proj-container')}>\n            <h1>Rendered Project</h1>\n         </div>\n        `\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/projects.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Project)\n/* harmony export */ });\n/* harmony import */ var _start__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../start */ \"./src/start.js\");\n\n\nfunction Project(Proj){\n\n    Proj.innerHTML = (\n        `\n         <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('proj-container')}>\n            <h1>Rendered Project</h1>\n            <div class=${(0,_start__WEBPACK_IMPORTED_MODULE_0__.style_main)('project-list')}>\n            <h2>Templates</h2>\n            <ul>\n                <li>\n                \n                </li>\n            </ul>\n            </div>\n         </div>\n        `\n    )\n\n}\n\n//# sourceURL=webpack://standalone-javascript/./src/components/Home/projects.js?");
 
 /***/ }),
 
