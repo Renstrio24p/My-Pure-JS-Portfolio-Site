@@ -14,6 +14,9 @@ export default function RightbarList(RList){
                 <li>
                     <p>item 3</p>
                 </li>
+                <li>
+                    <p>item 4</p>
+                </li>
             </ul>
         `
 
