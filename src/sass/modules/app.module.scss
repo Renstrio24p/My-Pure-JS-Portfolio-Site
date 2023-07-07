@@ -178,3 +178,62 @@
   padding-top: 20px;
   color: #fff;
 }
+
+.project-list ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-list ul li {
+  padding-right: 20px;
+}
+
+
+.template-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.template-item:hover .template-text {
+  height: 100%;
+}
+
+.template-item h2 {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.template-item p {
+  font-size: 14px;
+}
+
+.template-item {
+  position: relative;
+  width: 100%;
+}
+
+.template-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3b3b3b93;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .9s ease;
+  text-align: center;
+  padding: 10px;
+}
+
+.template-item:hover .template-text {
+  transform: translateY(0);
+  opacity: 1;
+}
+
